@@ -1,0 +1,111 @@
+
+.center-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top : 90px;
+    transition: 5s;
+}
+
+section{
+    padding: 20px;
+}
+
+.aboutme{
+    color : white;
+    max-width: 600px;
+}
+
+.aboutme h1{
+    font-size: 35px;
+    margin-bottom : 40px;
+    color: rgba(50,53,44,255);
+}
+
+.aboutme span{
+    font-size: 15px;
+    color: rgb(223, 207, 207);
+}
+.aboutme p{
+    font-size: 22px;
+    text-indent: 50px;
+    font-weight: 500;
+    
+}
+
+.myimage img{
+    width: 400px;
+    border: none;
+    border-radius: 40%;
+    height: 450px;
+}
+
+.btn-go{
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-go button{
+    height: 80px;
+    width: 150px;
+    border-radius: 10px;
+    background: rgb(48, 51, 49);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-go button:hover{
+    background: rgb(120, 122, 121);
+}
+
+
+
+
+
+.sides {
+    display: flex;
+    margin-top: 50px;
+}
+
+.sides .vline{
+    background-color: rgb(49, 47, 47);
+    height: 550px;
+    width: 3px;
+    margin-top: 40px;
+    margin-left: 75px;
+    margin-bottom: 60px;
+}
+
+.right-side, .left-side{
+    margin-left: 50px;
+}
+
+
+@media screen and (max-width:500px){
+    .myimage img{
+        position: fixed;
+        top: 0px;
+        width: 150px;
+        border: none;
+        border-radius: 40%;
+    }
+
+    .btn-go button{
+        height: 40px;
+    }
+    
+    .aboutme{
+        color : white;
+        max-width: 100px;
+    }
+    .aboutme h1{
+        max-width: 100px;
+        font-size: 20px;
+    }
+    
+}
